@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fecha">
+            <div id="fechaDerecha"></div>
+            <div id="fechaIzquierda"></div>
+        </div>
+        <div class="usuario">
+            <h1 class="h1">Bienvenido!</h1>
+            <h2 class="h2">Vamos a completar las tareas que tienes pendientes!</h2>
+        </div>
+        <div class="agregarTarea">
+            <input type="text" placeholder="Tareas a realizar" id="input">
+            <i class='bx bx-plus-circle' id="enter"></i>
+        </div>
+        <div class="listaDeTareas">
+            <ul id="lista">
+                <li id="elemento">
+                    <i class='bx bx-radio-circle' id="circuloHecho"></i>
+                    <p class="texto"> Tarea a realizar</p>
+                    <i class='bx bxs-trash-alt' id="Basurin"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
