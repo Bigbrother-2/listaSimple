@@ -245,9 +245,10 @@ body{
     border-radius: 10px;
     background: linear-gradient(to bottom, var(--green), var(--blue-light));
     color: var(--white);
+    margin-bottom: 10px;
 }
 
-#circuloHecho, #Basurin{
+#circuloHecho, #Basurin ,.bx-check-circle{
     font-size: 30px;
     color: var(--white);
 }
@@ -259,6 +260,9 @@ body{
 .texto{
     font-size: 15px;
 }
+.tachado{
+    text-decoration: line-through;
+}
 
 
 
@@ -269,7 +273,7 @@ body{
     .container{
         width: 90vw;
     }
-    #circuloHecho, #Basurin{
+    #circuloHecho, #Basurin, .bx-check-circle{
         font-size: 20px;
     }
     #fechaDerecha{
@@ -287,7 +291,7 @@ body{
     .container{
         width: 80vw;
     }
-    #circuloHecho, #Basurin{
+    #circuloHecho, #Basurin , .bx-check-circle{
         font-size: 25px;
     }
 }
